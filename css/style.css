@@ -554,7 +554,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -702,7 +702,7 @@ h1, h2, h3, h4, h5, h6, figure {
   clear: both;
   margin: 0;
   padding: 0;
-  float: left;
+  float: right;
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
   -webkit-border-radius: 4px;
@@ -711,7 +711,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 4px;
 }
 .fh5co-tabs .fh5co-tab-nav li {
-  float: left;
+  float: right;
   margin: 0;
   padding: 0;
   width: 14.285%;
@@ -763,7 +763,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-tabs .class-schedule li {
   width: 25%;
-  float: left;
+  float: right;
   border-right: 1px solid rgba(255, 255, 255, 0.02);
   border-bottom: 1px solid rgba(255, 255, 255, 0.02);
   list-style: none;
@@ -1182,6 +1182,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-blog a img {
   width: 100%;
+    height: 222px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog {
@@ -1747,4 +1748,18 @@ h1, h2, h3, h4, h5, h6, figure {
     font-family: "B Nazanin";
     font-size: 18px;
     letter-spacing: normal;
+}
+
+.index-gallery {
+    margin-top: -200px;
+}
+
+
+
+.make-inline {
+    display: inline-block;
+}
+
+.margin-50px {
+    margin-bottom: 50px;
 }
