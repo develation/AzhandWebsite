@@ -1763,3 +1763,13 @@ h1, h2, h3, h4, h5, h6, figure {
 .margin-50px {
     margin-bottom: 50px;
 }
+
+.icon {
+    height: 15px;
+    margin-top: -3px;
+    margin-left: -2px;
+}
+
+.PerText {
+    font-family: "B Lotus";
+}

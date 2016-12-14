@@ -1459,7 +1459,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	opacity: 0;
 	visibility: hidden;
 	@include transition(.5s);
-	&.active {
+	.active {
 		opacity: 1;
 		visibility: visible;
 	}
