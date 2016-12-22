@@ -501,14 +501,14 @@ h1, h2, h3, h4, h5, h6, figure {
 		padding: 0;
 		margin: 0;
 		li {
-			padding: 0 0 0 40px;
+			padding: 0 40px 0 0;
 			margin: 0 0 30px 0;
 			list-style: none;
 			position: relative;
 			&:before {
 				color: $brand-primary;
 				position: absolute;
-				left: 0;
+				right: 0;
 				top: .05em;
 				@include icomoon;
 			}
@@ -696,7 +696,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		h3{
 			font-size: 18px;
 			text-transform: uppercase;
-			letter-spacing: 3px;
+			letter-spacing: 1px;
 			margin: 0;
 			padding: 0;
 			a{
@@ -708,7 +708,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 		span{
 			text-transform: uppercase;
-			letter-spacing: 3px;
+			letter-spacing: 1px;
 			font-size: 13px;
 			color: rgba($brand-black,.4);
 		}
@@ -1764,4 +1764,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	.js & {
 		opacity: 0;
 	}
+}
+
+.title {
+
 }
